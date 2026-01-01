@@ -13,7 +13,7 @@
  * - Keyboard shortcuts for all tools
  */
 
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import type {
   Document,
   Layer,

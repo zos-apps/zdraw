@@ -1,0 +1,95 @@
+{
+  "name": "@zos-apps/zdraw",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.zdraw",
+    "name": "zDraw",
+    "icon": "✏️",
+    "category": "graphics",
+    "description": "Professional vector graphics editor",
+    "permissions": [
+      "filesystem"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1200,
+        "height": 800
+      },
+      "minSize": {
+        "width": 800,
+        "height": 600
+      },
+      "resizable": true
+    },
+    "about": "Professional vector graphics editor with bezier curves, shapes, layers, and SVG export",
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-tools.png",
+        "screenshots/3-layers.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/zdraw"
+    },
+    "featured": true,
+    "tags": [
+      "graphics",
+      "vector",
+      "illustration",
+      "design",
+      "svg"
+    ],
+    "releaseDate": "2025-12-29",
+    "support": "https://github.com/zos-apps/zdraw/issues",
+    "changelog": "https://github.com/zos-apps/zdraw/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@zos-apps/config": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "description": "Professional vector graphics editor",
+  "homepage": "https://zos-apps.github.io/zdraw",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/zdraw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/zdraw/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "zdraw",
+    "vector",
+    "graphics",
+    "illustration",
+    "svg",
+    "design"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
